@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas with uploaded image</title>
+  </head>
+  <body>
+    <input
+      type="file"
+      accept=".jpg, .png, image/jpeg, image/png"
+      id="image-input"
+    />
+    <button id="greyscale-button">Черно-белый фильтр</button>
+    <button id="invertedColor-button">Инверсия фильтр</button>
+    <button id="original-button">Оригинал</button>
+    <span id="info"></span>
+    <canvas id="canvas"></canvas>
+
+    <script src="./filter.js"></script>
+  </body>
+</html>
